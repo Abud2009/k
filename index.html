@@ -2,46 +2,69 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Cukrový koblížek</title>
-    <link rel="icon" href="https://fav.farm/🧁" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cukrový koblížek – domácí koblížky z Brna</title>
+    <meta name="description" content="Domácí koblížky z Brna. Pečeme denně čerstvé, s poctivými náplněmi a bez zkratky. Najdete nás na Veveří.">
+    <link rel="icon" href="https://fav.farm/🍩" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Cukrový koblížek</h1>
-    
-        <nav>   
-        <a href="index.html">Úvod</a>
-        <a href="menu.html">Menu</a>
-        <a href="vyhody.html">Proč k nám</a>
-        <a href="kontakt.html">Kontakt</a>
+        <h1><a href="index.html">Cukrový koblížek</a></h1>
+        <nav>
+            <a href="index.html" aria-current="page">Úvod</a>
+            <a href="menu.html">Menu</a>
+            <a href="vyhody.html">Proč k nám</a>
+            <a href="kontakt.html">Kontakt</a>
         </nav>
-      
-    
     </header>
 
+    <div class="hero">
+        <img src="coko.jpg" alt="Čokoládový koblížek" width="1024" height="559" fetchpriority="high">
+        <div class="hero-text">
+            <h2>Čerstvé koblížky každý den</h2>
+            <p>Nadýchané těsto, poctivé náplně a žádné zkratky. Pečeme v Brně na Veveří.</p>
+            <a class="btn" href="menu.html">Prohlédnout menu</a>
+        </div>
+    </div>
 
-<div class="main-content">
-    <section class="box">
-        <h2>Vítejte v naší koblížkárně!</h2>
-        <p>
-            Každé ráno pro vás pečeme ty nejlepší, nadýchané domácí koblížky plné chuti. Zakládáme si na poctivých surovinách, bohatých náplních a křupavých posypkách, které si zamilujete na první kousnutí.
-        </p>
-    </section>
+    <main class="main-content">
+        <section>
+            <h2>Vítejte v koblížkárně</h2>
+            <p>
+                Každé ráno u nás voní čerstvé těsto. Koblížky smažíme po malých dávkách,
+                plníme je vlastními krémy a zdobíme až na objednávku, aby dorazily co
+                nejčerstvější.
+            </p>
+        </section>
 
-    <section class="box">
-        <h2>Naše historie</h2>
-        <p>
-            Všechno to začalo v roce 2020 velkou láskou k pečení a snem vyměnit nudnou kancelářskou rutinu za něco opravdu voňavého. Začali jsme v malé kuchyni experimentováním s tradičními recepturami a hledáním té správné, nadýchané konzistence těsta. 
-        </p>
-        <p>
-            Díky skvělé zpětné vazbě od prvních zákazníků jsme se po roce odvážili otevřít naši první kamennou prodejnu. Dnes pro vás denně pečeme stovky čerstvých koblížků, neustále vymýšlíme nové příchutě a dělá nám radost, že se k nám rádi vracíte pro svou sladkou odměnu.
-        </p>
-    </section>
-</div>
+        <section>
+            <h2>Jak jsme začali</h2>
+            <p>
+                Rok 2020 jsme strávili v domácí kuchyni zkoušením receptů. Chtěli jsme
+                koblížek, který je uvnitř vláčný a ne mastný, a trvalo to déle, než jsme
+                čekali. Když jsme s ním pak zásobovali známé a kolegy, začaly se ozývat
+                objednávky, které už doma nešly zvládnout.
+            </p>
+            <p>
+                O rok později jsme otevřeli prodejnu na Veveří. Dnes pečeme stovky
+                koblížek denně, ale postup je pořád stejný: pomalé kynutí, dobré suroviny
+                a ruční práce.
+            </p>
+            <div class="gallery">
+                <img src="lotus.jpg" alt="Koblížek s Lotus polevou" width="1024" height="559" loading="lazy">
+                <img src="malina.jpg" alt="Malinový koblížek" width="1024" height="559" loading="lazy">
+                <img src="vanilka.jpg" alt="Vanilkový koblížek" width="1024" height="559" loading="lazy">
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2026 Spolek koblih. Všechna práva vyhrazena.</p>
+        <p>&copy; 2026 Cukrový koblížek · Hoppova 872/2, Brno</p>
     </footer>
 
 </body>

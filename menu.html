@@ -2,82 +2,84 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Jídelní menu - Cukrový koblížek</title>
-    <link rel="icon" href="https://fav.farm/🧁" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu – Cukrový koblížek</title>
+    <meta name="description" content="Naše nabídka: koblížky s lotus, malinou, čokoládou, pistáciemi a vanilkou. Vše pečené denně čerstvé v Brně na Veveří.">
+    <link rel="icon" href="https://fav.farm/🍩" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Cukrový koblížek</h1>
-    
-    
-        <nav>    
-        <a href="index.html">Úvod</a>
-        <a href="menu.html">Jídelní menu</a>
-        <a href="vyhody.html">Proč k nám</a>
-        <a href="kontakt.html">Kontakt</a>
-    </nav> 
+        <h1><a href="index.html">Cukrový koblížek</a></h1>
+        <nav>
+            <a href="index.html">Úvod</a>
+            <a href="menu.html" aria-current="page">Menu</a>
+            <a href="vyhody.html">Proč k nám</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
     </header>
 
-    <div class="main-content">
-    <h2>Menu</h2>
+    <main class="main-content">
+        <h2>Menu</h2>
 
-    <ul class="menu-list">
-        
-        <li class="menu-item">
-            <div class="menu-text">
-                <h3>Lotus koblížek</h3>
-                <p>Nadupaný karamelový sen! Bohatá Lotus poleva, křupavá drobenka i celá sušenka navrchu pro maximální křupnutí.</p>
-                <div class="price">65 Kč</div>
-            </div>
-            <img src="lotus.jpg" alt="Lotus koblížek">
-        </li>
+        <ul class="menu-list">
+            <li class="menu-item">
+                <div class="menu-text">
+                    <h3>Lotus</h3>
+                    <p>Karamelová poleva z Lotus pomazánky, drobenka a půlka sušenky navrch.</p>
+                    <div class="price">65 Kč</div>
+                </div>
+                <img src="lotus.jpg" alt="Koblížek s Lotus polevou" width="1024" height="559" loading="lazy">
+            </li>
 
-        <li class="menu-item">
-            <div class="menu-text">
-                <h3>Malinový koblížek</h3>
-                <p>Šťavnatá ovocná bomba plná lesních malin, kyselkavé mrazem sušené posypky a čerstvých plodů.</p>
-                <div class="price">65 Kč</div>
-            </div>
-            <img src="malina.jpg" alt="Malinový koblížek">
-        </li>
+            <li class="menu-item">
+                <div class="menu-text">
+                    <h3>Malina</h3>
+                    <p>Náplň z lesních malin, navrch lyofilizované maliny a čerstvé plody.</p>
+                    <div class="price">65 Kč</div>
+                </div>
+                <img src="malina.jpg" alt="Malinový koblížek s čerstvými malinami" width="1024" height="559" loading="lazy">
+            </li>
 
-        <li class="menu-item">
-            <div class="menu-text">
-                <h3>Čokoládový koblížek</h3>
-                <p>Čokoládový bombarďák. Poctivá vrstva čoko polevy, křupavé pecičky a nasekané oříšky pro milovníky kakaa.</p>
-                <div class="price">65 Kč</div>
-            </div>
-            <img src="coko.jpg" alt="Čokoládový koblížek">
-        </li>
+            <li class="menu-item">
+                <div class="menu-text">
+                    <h3>Čokoláda</h3>
+                    <p>Poleva z belgické čokolády, kakaové pecičky a nasekané vlašské ořechy.</p>
+                    <div class="price">65 Kč</div>
+                </div>
+                <img src="coko.jpg" alt="Čokoládový koblížek" width="1024" height="559" loading="lazy">
+            </li>
 
-        <li class="menu-item">
-            <div class="menu-text">
-                <h3>Pistáciový koblížek</h3>
-                <p>Královská pistáciová delikatesa s hebkým krémem a štědrou náloží křupavých oříšků.</p>
-                <div class="price">75 Kč</div>
-            </div>
-            <img src="pistacie.jpg" alt="Pistáciový koblížek">
-        </li>
+            <li class="menu-item">
+                <div class="menu-text">
+                    <h3>Pistácie</h3>
+                    <p>Pistáciový krém a pražené pistácie. Nejsložitější koblížek, který děláme.</p>
+                    <div class="price">75 Kč</div>
+                </div>
+                <img src="pistacie.jpg" alt="Pistáciový koblížek" width="1024" height="559" loading="lazy">
+            </li>
 
-        <li class="menu-item" style="border-bottom: none;">
-            <div class="menu-text">
-                <h3>Vanilkový koblížek</h3>
-                <p>Jemná vanilková klasika s pravými zrničkami vanilky, která se rozplyne na jazyku.</p>
-                <div class="price">60 Kč</div>
-            </div>
-            <img src="vanilka.jpg" alt="Vanilkový koblížek">
-        </li>
+            <li class="menu-item" style="border-bottom: none;">
+                <div class="menu-text">
+                    <h3>Vanilka</h3>
+                    <p>Krémová náplň s pravými vanilkovými zrničkami. Nic víc nepotřebuje.</p>
+                    <div class="price">60 Kč</div>
+                </div>
+                <img src="vanilka.jpg" alt="Vanilkový koblížek" width="1024" height="559" loading="lazy">
+            </li>
+        </ul>
 
-    </ul>
-</div>
-
-
-  
+        <p class="center" style="margin-top: 30px; color: #5c4c3e;">
+            Nabídku měníme podle sezóny – aktuální výběr najdete u nás na pultu.
+        </p>
+    </main>
 
     <footer>
-        <p>&copy; 2026 Spolek koblih. Všechna práva vyhrazena.</p>
+        <p>&copy; 2026 Cukrový koblížek · Hoppova 872/2, Brno</p>
     </footer>
 
 </body>

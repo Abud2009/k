@@ -2,39 +2,51 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Kontakt - Cukrový koblížek</title>
-    <link rel="icon" href="https://fav.farm/🧁" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontakt – Cukrový koblížek</title>
+    <meta name="description" content="Kde nás najdete a jak nás kontaktovat. Cukrový koblížek, Hoppova 872/2, Brno-střed-Veveří.">
+    <link rel="icon" href="https://fav.farm/🍩" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Cukrový koblížek</h1>
-        
-        <nav>    <a href="index.html">Úvod</a>
-        <a href="menu.html">Jídelní menu</a>
-        <a href="vyhody.html">Proč k nám</a>
-        <a href="kontakt.html">Kontakt</a></nav>
-
-
+        <h1><a href="index.html">Cukrový koblížek</a></h1>
+        <nav>
+            <a href="index.html">Úvod</a>
+            <a href="menu.html">Menu</a>
+            <a href="vyhody.html">Proč k nám</a>
+            <a href="kontakt.html" aria-current="page">Kontakt</a>
+        </nav>
     </header>
 
+    <main class="main-content">
+        <h2>Kontakt</h2>
 
+        <ul class="contact-list">
+            <li>E-mail: <a href="mailto:cukrovy.koblizek@seznam.cz">cukrovy.koblizek@seznam.cz</a></li>
+            <li>Telefon: <a href="tel:+420777548236">+420 777 548 236</a></li>
+            <li>Adresa: Hoppova 872/2, 602 00 Brno-střed-Veveří</li>
+        </ul>
 
-    <div class="main-content">
-        <h2>Kontaktní informace</h2>
-        <p>E-mail: <strong>cukrovy.koblizek@seznam.cz</strong></p>
-        <p>Telefon: +420 777 548 236</p>
-        <p>Adresa: Hoppova 872/2, 602 00 Brno-střed-Veveří</p>
+        <!-- Doplňte skutečnou otevírací dobu: -->
+        <h3>Otevírací doba</h3>
+        <ul class="contact-list">
+            <li>Po–Pá: 8:00–18:00</li>
+            <li>So–Ne: 9:00–16:00</li>
+        </ul>
 
-        <h3>Kde sídlíme (Mapa):</h3>
-        <div style="margin-top: 10px;">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d778.2384903299794!2d16.601647619496667!3d49.207268716436026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47129469f9682541%3A0x788ab7e94e8839e8!2zSG9wcG92YSA4NzIvMiwgNjAyIDAwIEJybm8tc3TFmWVkLVZldmXFmcOt!5e1!3m2!1sen!2scz!4v1794082619433!5m2!1sen!2scz" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-        </div>
-</div>
+        <h3>Kde nás najdete</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d778.2384903299794!2d16.601647619496667!3d49.207268716436026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47129469f9682541%3A0x788ab7e94e8839e8!2zSG9wcG92YSA4NzIvMiwgNjAyIDAwIEJybm8tc3TFmWVkLVZldmXFmcOt!5e1!3m2!1sen!2scz!4v1794082619433!5m2!1sen!2scz"
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin" title="Mapa – Hoppova 872/2, Brno"></iframe>
+    </main>
 
     <footer>
-        <p>&copy; 2026 Spolek koblih. Všechna práva vyhrazena.</p>
+        <p>&copy; 2026 Cukrový koblížek · Hoppova 872/2, Brno</p>
     </footer>
 
 </body>
